@@ -61,10 +61,11 @@
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 
 // Write code here 
-// for (let i=0; i<=10; i++) {
-//     const answer = i * 9
-//     console.log(i)
-// }
+let multiplier = 9;
+for (let i=0; i<=10; i++) {
+   let answer =  multiplier * i;
+   console.log(multiplier + '*' + i + "=" + answer) 
+}
     
 
 
@@ -127,17 +128,17 @@ Write a JavaScript program to construct the following pattern, using a nested fo
 
 // Write code here 
 
-function multiples(number) {
-let sum = 0;
-for (let i= 0; i<= number; i++){
-       if (i % 3 ===0 || i % 5 ===0) {
-       sum += i;
-       }
-    }
-    return sum
-}
-console.log(multiples(3))
-console.log(multiples(5))
+// function multiples(number) {
+// let sum = 0;
+// for (let i= 0; i<= number; i++){
+//        if (i % 3 ===0 || i % 5 ===0) {
+//        sum += i;
+//        }
+//     }
+//     return sum
+// }
+// console.log(multiples(3))
+// console.log(multiples(5))
 
 
 
