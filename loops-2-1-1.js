@@ -71,20 +71,20 @@
 /*********** Question 4: THE GRADE ASSIGNER ************/
 // Check the results of your assignGrade function by logging every value from 60 to 100: your log should show "For 88, you got a B. For 89, you got a B. For 90, you got an A. For 91, you got an A.", etc., logging each grade point in the range.
 // for (let i=60; i <= 100; i++)
-function assignGrade(score) {
-    if (score >= 90) {
-        return 'A';
-    } else if (score >= 80) {
-        return 'B';
-    } else if (score >= 70) {
-        return 'C';
-    } else if (score >= 65) {
-        return 'D';
-    } else {
-        return 'F';
-    }
-}
-console.log(assignGrade(76))
+// function assignGrade(score) {
+//     if (score >= 90) {
+//         return 'A';
+//     } else if (score >= 80) {
+//         return 'B';
+//     } else if (score >= 70) {
+//         return 'C';
+//     } else if (score >= 65) {
+//         return 'D';
+//     } else {
+//         return 'F';
+//     }
+// }
+// console.log(assignGrade(76))
 
 
 // Write code here 
@@ -104,7 +104,20 @@ Write a JavaScript program to construct the following pattern, using a nested fo
 */ 
 
 
+
 // Write code here 
+let n = 5;
+let string = "";
+
+for (let i = 1; i <= n; i++) {
+    for(let j = 0; j < i; j++) {
+    string += "*";
+}
+string += "\n"
+}
+console.log(string)
+
+
 
 
 
@@ -113,3 +126,4 @@ Write a JavaScript program to construct the following pattern, using a nested fo
 // Sum the multiples of 3 and 5 under 1000
 
 // Write code here 
+
