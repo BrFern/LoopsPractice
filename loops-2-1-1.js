@@ -4,44 +4,44 @@
 
 
 // Write a for loop that iterates integers from 1 to 100
-for (let i = 0; i <= 100; i++) {
+// for (let i = 0; i <= 100; i++) {
     
-    /*
-    if conditional statement for multiple of 3 and 5
-    console.log number and "FizzBuzz"
-    */ 
-   if (i % 3 ===0 && i % 5 ===0) {
-    console.log(`${i}-Fizzbuzz!` )
-   }
+//     /*
+//     if conditional statement for multiple of 3 and 5
+//     console.log number and "FizzBuzz"
+//     */ 
+//    if (i % 3 ===0 && i % 5 ===0) {
+//     console.log(`${i}-Fizzbuzz!` )
+//    }
 
-    /*
-    else if conditional statement for multiple of 3 only
-    console.log the number and 'Fizz'
-    */ 
-   else if (i % 3 === 0) {
-    console.log(`${i}-Fizz!`)
-   }
+//     /*
+//     else if conditional statement for multiple of 3 only
+//     console.log the number and 'Fizz'
+//     */ 
+//    else if (i % 3 === 0) {
+//     console.log(`${i}-Fizz!`)
+//    }
 
 
 
-    /*
-    else if conditional statement for multiple of 5 only
-    console.log the number and 'Buzz'
+//     /*
+//     else if conditional statement for multiple of 5 only
+//     console.log the number and 'Buzz'
     
-    */ 
-else if (i % 5 === 0) {
-    console.log(`${i}-Buzz!`)
-}
+//     */ 
+// else if (i % 5 === 0) {
+//     console.log(`${i}-Buzz!`)
+// }
 
 
-    /*
-    else statement to print remaining numbers
-    */ 
-else {
-    console.log(i);
-}
+//     /*
+//     else statement to print remaining numbers
+//     */ 
+// else {
+//     console.log(i);
+// }
 
-}
+// }
 
 /*********** Question 2: THE EVEN/ODD REPORTER ************/
 // Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
@@ -49,6 +49,12 @@ else {
 
 // Write code here 
 
+for ( let i = 0; i < 20; i++)
+    if (i % 2 == 0) {
+        console.log(`Your number is even. ${i}`)
+    } else {
+        console.log(`Your number is odd ${i}`)
+    }
 
 /*********** Question 3: MULTIPLICATION TABLE ************/
 // Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
