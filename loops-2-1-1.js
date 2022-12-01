@@ -106,16 +106,16 @@ Write a JavaScript program to construct the following pattern, using a nested fo
 
 
 // Write code here 
-let n = 5;
-let string = "";
+// let n = 5;
+// let string = "";
 
-for (let i = 1; i <= n; i++) {
-    for(let j = 0; j < i; j++) {
-    string += "*";
-}
-string += "\n"
-}
-console.log(string)
+// for (let i = 1; i <= n; i++) {
+//     for(let j = 0; j < i; j++) {
+//     string += "*";
+// }
+// string += "\n"
+// }
+// console.log(string)
 
 
 
@@ -126,4 +126,19 @@ console.log(string)
 // Sum the multiples of 3 and 5 under 1000
 
 // Write code here 
+
+function multiples(number) {
+let sum = 0;
+for (let i= 0; i<= number; i++){
+       if (i % 3 ===0 || i % 5 ===0) {
+       sum += i;
+       }
+    }
+    return sum
+}
+console.log(multiples(3))
+console.log(multiples(5))
+
+
+
 
